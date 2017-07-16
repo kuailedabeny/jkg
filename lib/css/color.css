@@ -1,0 +1,30 @@
+@media screen and (device-width: 640px) {
+  html {
+    font-size: 32px ;
+  }
+}
+@media screen and (device-width: 320px) {
+  html {
+    font-size: 16px ;
+  }
+}
+@media screen and (device-width: 414px) {
+  html {
+    font-size: 20.7px ;
+  }
+}
+@media screen and (device-width: 360px) {
+  html {
+    font-size: 18px ;
+  }
+}
+@media screen and (device-width: 412px) {
+  html {
+    font-size: 20.6px ;
+  }
+}
+@media screen and (device-width: 375px) {
+  html {
+    font-size: 32px ;
+  }
+}

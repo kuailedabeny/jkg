@@ -1,0 +1,72 @@
+@media screen and (device-width: 640px) {
+  html {
+    font-size: 32px ;
+  }
+}
+@media screen and (device-width: 320px) {
+  html {
+    font-size: 16px ;
+  }
+}
+@media screen and (device-width: 414px) {
+  html {
+    font-size: 20.7px ;
+  }
+}
+@media screen and (device-width: 360px) {
+  html {
+    font-size: 18px ;
+  }
+}
+@media screen and (device-width: 412px) {
+  html {
+    font-size: 20.6px ;
+  }
+}
+@media screen and (device-width: 375px) {
+  html {
+    font-size: 32px ;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:link {
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #494949;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+i,
+em {
+  font-style: normal;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+li {
+  list-style: none;
+}
+input {
+  outline: none;
+  border: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  background-color: #eee;
+}

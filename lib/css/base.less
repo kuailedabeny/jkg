@@ -1,0 +1,41 @@
+@import "color";
+@import "adapter";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,a:hover,a:active,a:visited,a:link{
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color:@fontBlack;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); //������aʱ���������
+}
+i,em{
+  font-style: normal;
+}
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  clear: both;
+  visibility: hidden;
+}
+li{
+  list-style: none;
+}
+input{
+  outline: none;
+  border: 0;
+}
+
+html,body{
+  height: 100%;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  background-color: #eee;
+
+}
+
+
